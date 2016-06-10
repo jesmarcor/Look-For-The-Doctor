@@ -1,0 +1,90 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+.navbar-inverse {
+  background-color: #77aaff;
+  border-color: #77aaff;
+}
+.navbar {
+  margin-bottom: 0px;
+}
+.navbar-inverse .navbar-brand{
+  color: white;
+  font-size: 25px;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: white;
+}
+.navbar-inverse .navbar-toggle{
+  border-color: white;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav >
+.open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus{
+  background-color: #77aaff;
+  color: white;
+}
+@media (max-width: 767px)
+.navbar-inverse .navbar-nav > .open .dropdown-menu > li > a {
+  color: white;
+}
+#signIn {
+  color: white;
+  text-decoration: none;
+}
+#signUp {
+  color: white;
+  text-decoration: none;
+}
+#medico{
+  border-radius: 7px;
+  border: 1px solid grey;
+}
+h1 {
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 15px;
+  color: #0392cf;
+}
+.transbox h1 {
+  text-shadow: 2px 4px 11px rgba(255, 255, 255, 1);
+}
+.textBox {
+  font-style: italic;
+}
+#SearchTerms {
+  font-size: 15px;
+  width: 791px;
+  height: 61px;
+  border-radius: 7px;
+  border:1px solid grey;
+}
+ #boton {
+   width: 160px;
+   height: 57px;
+   border: 1px solid grey;
+   border-radius: 7px;
+   font-size: 20px;
+   background-color: #7bc043;
+   color: white;
+ }
+.ppal #medico {
+  width: 80%;
+  height: 4em;
+}
+.ppal #boton {
+  top: 100px;
+  margin-left: 10px;
+}
+#search {
+  margin-bottom: 30px;
+}
+footer {
+  position:
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px 0;
+  color: white;
+  background-color: #77aaff;
+  width: 100%;
+}
